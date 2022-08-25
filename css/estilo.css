@@ -186,6 +186,14 @@ form {display:inline-flex}
     background-color:beige
 }
 
+.transition{
+    width: 100px;
+    transition: width 2s;
+}
+.transition:hover{
+    width: 200px;
+}
+
 @media screen and (max-width:576px){
     .stylesheet {background-color: goldenrod;}
     div iframe{width: auto;}
