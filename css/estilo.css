@@ -193,6 +193,12 @@ form {display:inline-flex}
 
 /* MAIN VIDEO TUTORIALES */
 
+
+div iframe {
+    display: flex;
+    justify-content: space-around;
+}
+
 .stylesheet {
     background-color:beige
 }
