@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{ 
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    display:inline-block
+}
+/* CSS GENERAL PARA TODOS LOS HEADER */
+header  {
+    background-color: burlywood;
+    position: sticky;
+    font-size: 3rem;
+    height: 40rem;
+    width: auto;
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+    font-size: 2.5rem;
+}
+
+section img {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: auto;
+    padding: auto;
+    border: auto;
+}
+
+.imgMain img{
+    width: 60%;
+}
+
+.vidMain iframe{
+    width: auto;
+}
+
+section iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+/*.flex {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+} APLICO DISPLAY FLEX ABAJO COMO ALTERNATIVA*/
+nav ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5rem;
+}
+.gridNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+li {
+    font-size: 3rem;
+}
+p,label,div, tr th, tr td {
+    font-size: 2rem;
+}
+footer{
+    background-color: burlywood;
+}
+footer ul li {
+    display: inline;
+}
+
+/* CSS PARA INDEX */
+
+h1 {
+    font-size: 4rem;
+}
+.familiaTipografica {
+    font-family: verdana;
+    text-align: center;
+}
+ol li {
+    list-style-type: none;
+    display: inline
+}
+.gridYt {
+    background: antiquewhite;
+    list-style-type: none;
+    display: grid;
+    margin: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    font-size: 5rem;
+}
+.grid {
+    background: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin: 2rem;
+}
+
+@media screen and (max-width:576px){
+    section iframe {display: block;}
+}
+
+@media screen and (max-width:576px) and (max-width: 992px){
+    section iframe {display: block;}
+}
+
+@media (min-width: 992px){
+    section iframe {margin-left: auto;
+        margin-right: auto;
+        display: inline;}
+}
+
+        /* MAIN PROYECTOS */
+h2 {
+font-size: 3rem;
+}
+
+.gridProyectos{
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    background-color:darkgoldenrod
+}
+section div {
+    margin: 1rem;
+    padding: 2rem;
+    border: 2rem;
+    background-color: brown;
+}
+section a {
+    margin: 1rem;
+    padding: 2rem;
+    border: 2rem;
+    background-color: bisque;
+    font-size: small;
+}
+
+@media screen and (max-width:576px){
+    .gridProyectos {background-color: coral;} 
+}
+
+@media screen and (max-width:576px) and (max-width: 992px){
+    .gridProyectos {background-color:chocolate;} 
+}
+
+@media (min-width: 992px){
+        .gridProyectos{background-color: darkgoldenrod;}
+    }
+
+
+/* MAIN CLASES PARTICULARES */
+
+h4 {
+    margin: 3rem;
+    background-color: bisque;
+}
+
+form {display:inline-flex}
+
+@media screen and (max-width:768px){
+    form {display: block;}
+}
+
+/* MAIN VIDEO TUTORIALES */
+
+.stylesheet {
+    background-color:beige
+}
+
+@media screen and (max-width:576px){
+    .stylesheet {background-color: goldenrod;}
+    div iframe{width: auto;}
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+    .stylesheet {background-color:gold;}
+    div iframe{width: auto;}
+}
+
+@media (min-width: 992px) {
+    .stylesheet {background-color:beige}
+    div iframe{flex:auto;}
+}
+
+/* MAIN MI MUSICA */
+
+div p {
+    margin: 3rem;
+}
+
+main div h1{
+    background-color: blanchedalmond;
+}
+
+div iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+@media screen and (max-width:576px){
+    div iframe {display: block; width: auto;}
+    main div h1 {background-color: goldenrod;}
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+    div iframe {display: block; width: auto;}
+    main div h1 {background-color:burlywood;}
+}
+
+@media (min-width: 992px){
+    div iframe {
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
+    }
+    main div h1{
+        background-color: blanchedalmond;
+    }
+}
