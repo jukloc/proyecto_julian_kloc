@@ -187,7 +187,7 @@ form {display:inline-flex}
 }
 
 .transition{
-    width: 100px;
+    width: 150px;
     transition: width 2s;
 }
 .transition:hover{
