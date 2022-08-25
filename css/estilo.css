@@ -109,6 +109,7 @@ ol li {
 
 @media screen and (max-width:576px){
     section iframe {display: block;}
+    nav ul {display: flex; justify-content: column;}
 }
 
 @media screen and (max-width:576px) and (max-width: 992px){
@@ -149,6 +150,7 @@ section a {
 
 @media screen and (max-width:576px){
     .gridProyectos {background-color: coral;} 
+    nav ul {display: flex; justify-content: column;}
 }
 
 @media screen and (max-width:576px) and (max-width: 992px){
@@ -182,6 +184,7 @@ form {display:inline-flex}
 @media screen and (max-width:576px){
     .stylesheet {background-color: goldenrod;}
     div iframe{width: auto;}
+    nav ul {display: flex; justify-content: column;}
 }
 
 @media (min-width: 576px) and (max-width: 992px){
@@ -213,6 +216,7 @@ div iframe {
 @media screen and (max-width:576px){
     div iframe {display: block; width: auto;}
     main div h1 {background-color: goldenrod;}
+    nav ul {display: flex; justify-content: column;}
 }
 
 @media (min-width: 576px) and (max-width: 992px){
