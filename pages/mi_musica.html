@@ -4,7 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<!--CSS AOS-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
 
 
@@ -12,7 +13,7 @@
 </head>
 
 <body>
-    <header class="gradient">
+	<header class="gradient">
 		<img src="../assets/img/juk56.png" alt="logo pagina web">
 		<nav>
 			<ul class="gridNav">
@@ -32,7 +33,9 @@
 			<h1>Mi Musica</h1>
 
 
-			<div>
+			<div data-aos="flip-left"
+			data-aos-easing="ease-out-cubic"
+			data-aos-duration="2000">
 				<iframe width="560" height="315"
 					src="https://www.youtube.com/embed/videoseries?list=PLQmSlidOUZDlBFe-xgrCaNovZilww_n5T"
 					title="YouTube video player" frameborder="0"
@@ -60,7 +63,10 @@
 							alt="direcciona a vinculo de perfil de twitter"></a></li>
 			</ul>
 		</footer>
-
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 </body>
 
 </html>
