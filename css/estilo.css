@@ -26,7 +26,6 @@ header  {
 a{
     text-decoration: none;
     color: chocolate;
-    font-size: 2.5rem;
 }
 
 section img {
@@ -54,24 +53,24 @@ section iframe {
     display: inline;
 }
 
-/*.flex {
+.flex {
     display: flex;
-    justify-content: space-between;
-    font-size: 3rem;
-} APLICO DISPLAY FLEX ABAJO COMO ALTERNATIVA*/
-nav ul li {
+    justify-content:flex-end;
+    font-size: 2rem;
     list-style-type: none;
+}
+/*APLICO DISPLAY FLEX ABAJO COMO ALTERNATIVA
+nav ul li {
     display: flex;
     justify-content: space-around;
-    font-size: 2.5rem;
-}
+    font-size: 1rem;
+} */
 .gridNav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-li {
-    font-size: 3rem;
-}
+
+
 p,label,div, tr th, tr td {
     font-size: 2rem;
 }
@@ -91,6 +90,11 @@ h1 {
     font-family: verdana;
     text-align: center;
 }
+
+ul li {
+    font-size: 3rem;
+}
+
 ol li {
     list-style-type: none;
     display: inline
@@ -103,6 +107,7 @@ ol li {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     font-size: 5rem;
+    justify-content: center;
 }
 .grid {
     background: antiquewhite;
@@ -110,6 +115,8 @@ ol li {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     margin: 2rem;
+    justify-content: center;
+    font-size: 2rem;
 }
 
 @media screen and (max-width:576px){
@@ -152,7 +159,7 @@ section a {
     padding: 2rem;
     border: 2rem;
     background-color: bisque;
-    font-size: small;
+    font-size: 2rem;
 }
 
 @media screen and (max-width:576px){
