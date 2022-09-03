@@ -181,7 +181,9 @@ form {
   animation-name: aparecer;
   animation-iteration-count: 1;
   animation-duration: 10s;
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem; }
 
 div iframe {
   display: flex;
