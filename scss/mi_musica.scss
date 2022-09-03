@@ -1,0 +1,60 @@
+div{
+    p {
+        margin: 3rem;
+    }
+}
+
+main{
+    div{
+        h1{
+            background-color: blanchedalmond;
+        }
+    }
+}
+
+div{
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex; text-align: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    div{
+        iframe {display: block; width: auto;}
+    }
+    main{
+        div{
+            h1 {background-color: goldenrod;}
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+    div{
+        iframe {display: block; width: auto;}
+    }
+    main{
+        div{
+            h1 {background-color:burlywood;}
+        }
+    }
+}
+
+@media (min-width: 992px){
+    div{
+        iframe {
+            margin-left: auto;
+            margin-right: auto;
+            display: inline;
+        }
+    }
+    main{
+        div{
+            h1{
+                background-color: blanchedalmond;
+            }
+        }
+    }
+}

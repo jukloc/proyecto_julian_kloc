@@ -1,0 +1,67 @@
+header  {
+    background-color: burlywood;
+    position: sticky;
+    font-size: 3rem;
+    height: 40rem;
+    width: auto;
+}
+
+.gradient {
+    background-image: linear-gradient(burlywood,chocolate);
+}
+
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+
+section{
+    img {
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        margin: auto;
+        padding: auto;
+        border: auto;
+    }
+}
+
+.imgMain {
+    img{
+        width: 60%;
+    }
+}
+
+
+.vidMain{
+    iframe{
+        width: auto;
+    }
+}
+
+section{
+    iframe {
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
+    }
+}
+
+.flex {
+    display: flex;
+    justify-content:flex-end;
+    font-size: 2rem;
+    list-style-type: none;
+}
+/*APLICO DISPLAY FLEX ABAJO COMO ALTERNATIVA
+nav ul li {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+} */
+.gridNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}

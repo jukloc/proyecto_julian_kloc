@@ -1,0 +1,33 @@
+div{
+    iframe {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.stylesheet {
+    background-color:beige
+}
+
+.transition{
+    width: 150px;
+    transition: width 2s;
+}
+.transition:hover{
+    width: 200px;
+}
+
+@media screen and (max-width:576px){
+    .stylesheet {background-color: goldenrod;}
+    div iframe{width: auto;}
+}
+
+@media (min-width: 576px) and (max-width: 992px){
+    .stylesheet {background-color:gold;}
+    div iframe{width: auto;}
+}
+
+@media (min-width: 992px) {
+    .stylesheet {background-color:beige}
+    div iframe{flex:auto;}
+}

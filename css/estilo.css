@@ -1,64 +1,55 @@
 * {
-    margin: 0px;
-    padding: 0px;
-}
-html{ 
-    font-size: 62.5%;
-    box-sizing: border-box;
-}
+  margin: 0px;
+  padding: 0px; }
 
-body{
-    display:inline-block
-}
-/* CSS GENERAL PARA TODOS LOS HEADER */
-header  {
-    background-color: burlywood;
-    position: sticky;
-    font-size: 3rem;
-    height: 40rem;
-    width: auto;
-}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  display: inline-block; }
+
+header {
+  background-color: burlywood;
+  position: sticky;
+  font-size: 3rem;
+  height: 40rem;
+  width: auto; }
 
 .gradient {
-    background-image: linear-gradient(burlywood,chocolate);
-}
+  background-image: linear-gradient(burlywood, chocolate); }
 
-a{
-    text-decoration: none;
-    color: chocolate;
-}
+a {
+  text-decoration: none;
+  color: chocolate; }
 
 section img {
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    margin: auto;
-    padding: auto;
-    border: auto;
-}
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  margin: auto;
+  padding: auto;
+  border: auto; }
 
-.imgMain img{
-    width: 60%;
-}
+.imgMain img {
+  width: 60%; }
 
-.vidMain iframe{
-    width: auto;
-}
+.vidMain iframe {
+  width: auto; }
 
 section iframe {
-    margin-left: auto;
-    margin-right: auto;
-    display: inline;
-}
+  margin-left: auto;
+  margin-right: auto;
+  display: inline; }
 
 .flex {
-    display: flex;
-    justify-content:flex-end;
-    font-size: 2rem;
-    list-style-type: none;
-}
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+  list-style-type: none; }
+
 /*APLICO DISPLAY FLEX ABAJO COMO ALTERNATIVA
 nav ul li {
     display: flex;
@@ -66,212 +57,199 @@ nav ul li {
     font-size: 1rem;
 } */
 .gridNav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-
-p,label,div, tr th, tr td {
-    font-size: 2rem;
-}
-footer{
-    background-color: burlywood;
-}
-footer ul li {
-    display: inline;
-}
-
-/* CSS PARA INDEX */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
 
 h1 {
-    font-size: 4rem;
-}
+  font-size: 4rem; }
+
 .familiaTipografica {
-    font-family: verdana;
-    text-align: center;
-}
+  font-family: verdana;
+  text-align: center; }
 
 ul li {
-    font-size: 3rem;
-}
+  font-size: 3rem; }
 
 ol li {
-    font-size: 3rem;
-    list-style-type: none;
-    display: inline
-}
+  font-size: 3rem;
+  list-style-type: none;
+  display: inline; }
+
+.card {
+  border-radius: 3rem;
+  margin: 1rem;
+  padding: 1rem; }
+
 .gridYt {
-    background: antiquewhite;
-    list-style-type: none;
-    display: grid;
-    margin: 3rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    font-size: 5rem;
-    justify-content: center;
-}
+  background: antiquewhite;
+  list-style-type: none;
+  display: grid;
+  margin: 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  font-size: 5rem;
+  justify-content: center; }
+
 .grid {
-    background: antiquewhite;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    margin: 2rem;
-    justify-content: center;
-    font-size: 2rem;
-}
+  background: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  margin: 2rem;
+  justify-content: center;
+  font-size: 2rem; }
 
-@media screen and (max-width:576px){
-    section iframe {display: block;}
-    nav ul {display: flex; flex-direction: column;}
-}
-
-@media screen and (max-width:576px) and (max-width: 992px){
-    section iframe {display: block;}
-    nav ul {display: flex; flex-direction: column;}
-
-}
-
-@media (min-width: 992px){
-    section iframe {margin-left: auto;
-        margin-right: auto;
-        display: inline;}
-}
-
-        /* MAIN PROYECTOS */
-h2 {
-font-size: 3rem;
-}
-
-div p {
-    display:flex; justify-content: center;
-}
-
-.gridProyectos{
-    list-style-type: none;
-    display: grid;
-    grid-template-rows: auto auto auto auto;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    background-color:darkgoldenrod
-}
-section div {
-    margin: 1rem;
-    padding: 2rem;
-    border: 2rem;
-    background-color: brown;
-}
-section a {
-    margin: 1rem;
-    padding: 2rem;
-    border: 2rem;
-    background-color: bisque;
-    font-size: 2rem;
-}
-
-@media screen and (max-width:576px){
-    .gridProyectos {background-color: coral;} 
-}
-
-@media screen and (max-width:576px) and (max-width: 992px){
-    .gridProyectos {background-color:chocolate;} 
-}
-
-@media (min-width: 992px){
-        .gridProyectos{background-color: darkgoldenrod;}
-    }
-
-
-/* MAIN CLASES PARTICULARES */
-
-h4 {
-    margin: 3rem;
-    background-color: bisque;
-}
-
-form {display:inline-flex}
-
-@media screen and (max-width:768px){
-    form {display: block;}
-}
-
-@keyframes aparecer{
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-.animation{
-    animation-name: aparecer;
-    animation-iteration-count: 1;
-    animation-duration: 10s;
-}
-
-/* MAIN VIDEO TUTORIALES */
-
-
-div iframe {
+@media screen and (max-width: 576px) {
+  section iframe {
+    display: block; }
+  nav ul {
     display: flex;
-    justify-content: space-around;
-}
+    flex-direction: column; } }
 
-.stylesheet {
-    background-color:beige
-}
-
-.transition{
-    width: 150px;
-    transition: width 2s;
-}
-.transition:hover{
-    width: 200px;
-}
-
-@media screen and (max-width:576px){
-    .stylesheet {background-color: goldenrod;}
-    div iframe{width: auto;}
-}
-
-@media (min-width: 576px) and (max-width: 992px){
-    .stylesheet {background-color:gold;}
-    div iframe{width: auto;}
-}
+@media screen and (max-width: 576px) and (max-width: 992px) {
+  section iframe {
+    display: block; }
+  nav ul {
+    display: flex;
+    flex-direction: column; } }
 
 @media (min-width: 992px) {
-    .stylesheet {background-color:beige}
-    div iframe{flex:auto;}
-}
-
-/* MAIN MI MUSICA */
-
-div p {
-    margin: 3rem;
-}
-
-main div h1{
-    background-color: blanchedalmond;
-}
-
-div iframe {
+  section iframe {
     margin-left: auto;
     margin-right: auto;
-    display: flex; text-align: center;
-}
+    display: inline; } }
 
-@media screen and (max-width:576px){
-    div iframe {display: block; width: auto;}
-    main div h1 {background-color: goldenrod;}
-}
+h2 {
+  font-size: 3rem; }
 
-@media (min-width: 576px) and (max-width: 992px){
-    div iframe {display: block; width: auto;}
-    main div h1 {background-color:burlywood;}
-}
+div p {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem; }
 
-@media (min-width: 992px){
-    div iframe {
-        margin-left: auto;
-        margin-right: auto;
-        display: inline;
-    }
-    main div h1{
-        background-color: blanchedalmond;
-    }
-}
+.gridProyectos {
+  list-style-type: none;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  background-color: darkgoldenrod; }
+
+section div {
+  margin: 1rem;
+  padding: 2rem;
+  border: 2rem;
+  background-color: brown; }
+
+section a {
+  margin: 1rem;
+  padding: 2rem;
+  border: 2rem;
+  background-color: bisque;
+  font-size: 2rem; }
+
+@media screen and (max-width: 576px) {
+  .gridProyectos {
+    background-color: coral; } }
+
+@media screen and (max-width: 576px) and (max-width: 992px) {
+  .gridProyectos {
+    background-color: chocolate; } }
+
+@media (min-width: 992px) {
+  .gridProyectos {
+    background-color: darkgoldenrod; } }
+
+div h1 h4 {
+  background-color: bisque;
+  margin: 2rem;
+  padding: 1rem; }
+
+form {
+  display: inline-flex; }
+
+@media screen and (max-width: 768px) {
+  form {
+    display: block; } }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.animation {
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  animation-duration: 10s; }
+
+div iframe {
+  display: flex;
+  justify-content: space-around; }
+
+.stylesheet {
+  background-color: beige; }
+
+.transition {
+  width: 150px;
+  transition: width 2s; }
+
+.transition:hover {
+  width: 200px; }
+
+@media screen and (max-width: 576px) {
+  .stylesheet {
+    background-color: goldenrod; }
+  div iframe {
+    width: auto; } }
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .stylesheet {
+    background-color: gold; }
+  div iframe {
+    width: auto; } }
+
+@media (min-width: 992px) {
+  .stylesheet {
+    background-color: beige; }
+  div iframe {
+    flex: auto; } }
+
+div p {
+  margin: 3rem; }
+
+main div h1 {
+  background-color: blanchedalmond; }
+
+div iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  text-align: center; }
+
+@media screen and (max-width: 576px) {
+  div iframe {
+    display: block;
+    width: auto; }
+  main div h1 {
+    background-color: goldenrod; } }
+
+@media (min-width: 576px) and (max-width: 992px) {
+  div iframe {
+    display: block;
+    width: auto; }
+  main div h1 {
+    background-color: burlywood; } }
+
+@media (min-width: 992px) {
+  div iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline; }
+  main div h1 {
+    background-color: blanchedalmond; } }
+
+footer {
+  background-color: burlywood; }
+
+footer ul li {
+  display: inline; }

@@ -1,0 +1,64 @@
+h1 {
+    font-size: 4rem;
+}
+.familiaTipografica {
+    font-family: verdana;
+    text-align: center;
+}
+
+ul{
+    li {
+        font-size: 3rem;
+    }
+}
+
+ol{
+    li {
+        font-size: 3rem;
+        list-style-type: none;
+        display: inline
+    }
+}
+
+.card{
+    border-radius: 3rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.gridYt {
+    background: antiquewhite;
+    list-style-type: none;
+    display: grid;
+    margin: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    font-size: 5rem;
+    justify-content: center;
+}
+.grid {
+    background: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin: 2rem;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:576px){
+    section iframe {display: block;}
+    nav ul {display: flex; flex-direction: column;}
+}
+
+@media screen and (max-width:576px) and (max-width: 992px){
+    section iframe {display: block;}
+    nav ul {display: flex; flex-direction: column;}
+
+}
+
+@media (min-width: 992px){
+    section iframe {margin-left: auto;
+        margin-right: auto;
+        display: inline;}
+}

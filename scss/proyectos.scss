@@ -1,0 +1,47 @@
+h2 {
+    font-size: 3rem;
+    }
+    
+    div {
+        p {
+            display:flex; justify-content: center;
+            font-size: 2rem;
+        }
+    }
+    
+    .gridProyectos{
+        list-style-type: none;
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        background-color:darkgoldenrod
+    }
+    section {
+        div {
+            margin: 1rem;
+            padding: 2rem;
+            border: 2rem;
+            background-color: brown;
+        }
+    }
+    section {
+        a {
+            margin: 1rem;
+            padding: 2rem;
+            border: 2rem;
+            background-color: bisque;
+            font-size: 2rem;
+        }
+    }
+    
+    @media screen and (max-width:576px){
+        .gridProyectos {background-color: coral;} 
+    }
+    
+    @media screen and (max-width:576px) and (max-width: 992px){
+        .gridProyectos {background-color:chocolate;} 
+    }
+    
+    @media (min-width: 992px){
+            .gridProyectos{background-color: darkgoldenrod;}
+        }
