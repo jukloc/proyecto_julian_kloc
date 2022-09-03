@@ -138,7 +138,8 @@ section div {
   margin: 1rem;
   padding: 2rem;
   border: 2rem;
-  background-color: brown; }
+  background-color: brown;
+  font-size: 2rem; }
 
 section a {
   margin: 1rem;
