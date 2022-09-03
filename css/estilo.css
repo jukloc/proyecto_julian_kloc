@@ -96,6 +96,7 @@ ul li {
 }
 
 ol li {
+    font-size: 3rem;
     list-style-type: none;
     display: inline
 }
@@ -139,6 +140,10 @@ ol li {
         /* MAIN PROYECTOS */
 h2 {
 font-size: 3rem;
+}
+
+div p {
+    display:flex; justify-content: center;
 }
 
 .gridProyectos{
@@ -247,7 +252,7 @@ main div h1{
 div iframe {
     margin-left: auto;
     margin-right: auto;
-    display: inline;
+    display: flex; text-align: center;
 }
 
 @media screen and (max-width:576px){
