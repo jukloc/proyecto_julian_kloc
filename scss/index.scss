@@ -8,7 +8,7 @@ h1 {
 
 ul{
     li {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
 
@@ -47,13 +47,39 @@ ol{
 }
 
 @media screen and (max-width:576px){
-    section iframe {display: block;}
-    nav ul {display: flex; flex-direction: column;}
+    section{
+        iframe {
+            display: block;
+            margin: 2rem;
+            padding: 2rem;
+        }
+    }
+    nav{
+        ul {display: flex; flex-direction: column;
+        }
+    }
+
+    ol{
+        li{
+            font-size: 2rem;
+        }
+    }
+
+    ul{
+        li{
+            a{
+                font-size: 2rem;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:576px) and (max-width: 992px){
     section iframe {display: block;}
-    nav ul {display: flex; flex-direction: column;}
+    nav{
+        ul {display: flex; flex-direction: column;
+        }
+    }
 
 }
 
