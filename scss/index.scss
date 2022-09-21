@@ -20,6 +20,18 @@ ol{
     }
 }
 
+.a {
+    font-size: 3rem;
+}
+
+.a2 {
+    font-size: 3rem;
+}
+
+.a3 {
+    font-size: 3rem;
+}
+
 .card{
     border-radius: 3rem;
     margin: 1rem;
@@ -32,10 +44,17 @@ ol{
     display: grid;
     margin: 3rem;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    font-size: 5rem;
-    justify-content: center;
-}
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        ". li ."
+        "a a2 a3";
+    }
+    .li { grid-area: li; }
+    .a { grid-area: a; }
+    .a2 { grid-area: a2; }
+    .a3 { grid-area: a3; }
+    
 .grid {
     background: antiquewhite;
     display: grid;
@@ -54,24 +73,19 @@ ol{
             padding: 2rem;
         }
     }
-    nav{
-        ul {display: flex; flex-direction: column;
-        }
+    .gridNav{
+        display: flex; flex-direction: column;
+        
     }
-
-    ol{
-        li{
-            font-size: 2rem;
-        }
-    }
-
-    ul{
-        li{
-            a{
-                font-size: 2rem;
-            }
-        }
-    }
+.grid-index{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+header{grid-area: header;}
+main{grid-area: main;}
+footer{grid-area: footer;}
 }
 
 @media screen and (max-width:576px) and (max-width: 992px){

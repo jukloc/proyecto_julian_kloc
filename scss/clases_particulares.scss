@@ -12,9 +12,14 @@ form {
     display:inline-flex
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:576px){
     form {display: block;}
 }
+
+@media screen and (max-width:576px) and (max-width: 992px){
+    form {display: block;}
+}
+
 
 @keyframes aparecer{
     0% {opacity: 0;}
