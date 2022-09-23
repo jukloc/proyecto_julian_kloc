@@ -9,6 +9,16 @@ h2 {
         }
     }
     
+    .grid-proyecto{
+        display: grid;
+        grid-template-areas: "header" "main" "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+    header{grid-area: header;}
+    main{grid-area: main;}
+    footer{grid-area: footer;}
+    
     .gridProyectos{
         list-style-type: none;
         display: grid;
@@ -16,6 +26,7 @@ h2 {
         grid-template-columns: 2fr 2fr 2fr 2fr;
         background-color:darkgoldenrod
     }
+    
     section {
         div {
             margin: 1rem;
@@ -34,15 +45,6 @@ h2 {
     
     @media screen and (max-width:576px){
         .gridProyectos {background-color: coral;display: flex;flex-direction: column;} 
-        .grid-proyecto{
-            display: grid;
-            grid-template-areas: "header" "main" "footer";
-            grid-template-columns: 100%;
-            grid-template-rows: auto auto auto;
-        }
-        header{grid-area: header;}
-        main{grid-area: main;}
-        footer{grid-area: footer;}
     }
     
     @media screen and (max-width:576px) and (max-width: 992px){
