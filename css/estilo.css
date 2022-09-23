@@ -82,6 +82,21 @@ ol li {
   margin: 1rem;
   padding: 1rem; }
 
+.grid-index {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto; }
+
+header {
+  grid-area: header; }
+
+main {
+  grid-area: main; }
+
+footer {
+  grid-area: footer; }
+
 .gridYt {
   background: antiquewhite;
   list-style-type: none;
@@ -121,17 +136,27 @@ ol li {
   .gridNav {
     display: flex;
     flex-direction: column; }
-  .grid-index {
+  .gridYt {
+    display: flex;
+    flex-direction: column; }
+  .grid {
     display: grid;
-    grid-template-areas: "header" "main" "footer";
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto; }
-  header {
-    grid-area: header; }
-  main {
-    grid-area: main; }
-  footer {
-    grid-area: footer; } }
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.8fr 0.2fr 1.8fr 0.2fr 1.8fr;
+    gap: 0px 0px;
+    grid-template-areas: "c1 . ." "card1 card1 card1" "c2 c2 ." "card2 card2 card2" "c3 c3 ." "card3 card3 card3"; }
+  .card1 {
+    grid-area: card1; }
+  .card2 {
+    grid-area: card2; }
+  .card3 {
+    grid-area: card3; }
+  .c1 {
+    grid-area: c1; }
+  .c2 {
+    grid-area: c2; }
+  .c3 {
+    grid-area: c3; } }
 
 @media screen and (max-width: 576px) and (max-width: 992px) {
   section iframe {
