@@ -32,12 +32,6 @@ ol{
     font-size: 3rem;
 }
 
-.card{
-    border-radius: 3rem;
-    margin: 1rem;
-    padding: 1rem;
-}
-
 .grid-index{
     display: grid;
     grid-template-areas: "header" "main" "footer";
@@ -47,6 +41,11 @@ ol{
 header{grid-area: header;}
 main{grid-area: main;}
 footer{grid-area: footer;}
+
+.vidMain {
+    display: flex;
+    justify-content: center;
+}
 
 .gridYt {
     background: antiquewhite;
@@ -121,7 +120,6 @@ footer{grid-area: footer;}
 }
 
 @media (min-width: 992px){
-    section iframe {margin-left: auto;
-        margin-right: auto;
-        display: inline;}
+    a {
+        display: flex; justify-content: center;}
 }
